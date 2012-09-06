@@ -1,0 +1,775 @@
+/*This removes that silly arrow after every link in the faq page */
+.wikipage a.ext-link .icon {
+    background-image: none !important;
+    padding-right: 0 !important
+    }
+a.ext-link .icon {
+    background-image: none !important;
+    padding-right: 0 !important
+    }
+/*Twitter Feed Graphic*/
+a[href="http://twitter.com/Shitty_Science"] {
+    width: 68px;
+    height: 16px;
+    content: "";
+    background-image: url(%%twitter%%);
+    background-position: -0px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative
+    }
+/* Change the description of "subscribers"*/
+/* Removes the "subscribers" */
+div.titlebox span.word {
+    display: none
+    }
+div.titlebox span.number:before {
+    content: "Warning:  "
+    }
+/* Changes the subscribers to what ever I want */
+div.titlebox span.number:after {
+    content: " Logic-dodgers"
+    }
+
+
+.sidebox.submit{display:none}
+.side .bottom{margin-top:5px;}
+.side .md a[href="http://www.reddit.com/r/shittyaskscience/submit"]:before {
+    display: block;
+    height: 31px;
+    width: 24px;
+    background: url(%%redditsprites%%) repeat scroll -76px -472px white;
+    position: absolute;
+    z-index: 1000;
+    content: "";
+    left: 250px;
+    top: -1px
+}
+
+.side .md a[href="http://www.reddit.com/r/shittyaskscience/submit"] {
+  color: #336699;
+  display: block;
+  width: 250px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  padding-left: 20px;
+  background: url(%%redditsprites%%) repeat scroll 0 -228px white;
+  border: 1px solid #C4DBF1;
+  font-weight: bold;
+  height: 29px;
+  letter-spacing: -1px;
+  position: relative;
+}
+.side .md a[href="http://www.reddit.com/r/shittyaskscience/submit"]:hover::after{
+  display:block;
+  text-align:center;
+  top:0;
+  background-color:#a00;
+  color:#fff;
+  z-index:1000;
+  width:100%;
+  left:0;
+  font-size:23px;
+  content:"Reminder: This subreddit is not for general questions, but only ones answerable by (shitty)science.           By submitting you agree that Googunk is charming and smells nice.";
+  position:fixed;
+}
+.side .md a[href="http://www.reddit.com/r/shittyaskscience/submit"]:hover::before {
+  background: url(%%redditsprites%%) repeat scroll -52px -472px white;
+}
+
+.side .md a[href="http://www.reddit.com/r/shittyaskscience/submit"]:hover {
+  background: url(%%redditsprites%%) repeat scroll 0 -198px white;
+  border: 1px solid #879EB4;
+  color: #fff;
+}
+
+.side .md a[href="http://www.reddit.com/r/punny"]:before {
+    display: block;
+    height: 31px;
+    width: 24px;
+    background: url(%%redditsprites%%) repeat scroll -76px -472px white;
+    position: absolute;
+    z-index: 1000;
+    content: "";
+    left: 250px;
+    top: -1px
+}
+.side .md a[href="http://www.reddit.com/r/punny"] {
+    color: #336699;
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    padding-left: 20px;
+    background: url(%%redditsprites%%) repeat scroll 0 -228px white;
+    border: 1px solid #C4DBF1;
+    font-weight: bold;
+    height: 29px;
+    letter-spacing: -1px;
+    position: relative;
+}
+.side .md a[href="http://www.reddit.com/r/punny"]:hover::before {
+    background: url(%%redditsprites%%) repeat scroll -52px -472px white;
+}
+
+.side .md a[href="http://www.reddit.com/r/punny"]:hover {
+    background: url(%%redditsprites%%) repeat scroll 0 -198px white;
+    border: 1px solid #879EB4;
+    color: #fff;
+}
+
+
+.titlebox form {
+    position: static
+    }
+.side {
+    padding-top: 300px;
+    background-image: url(%%nasa2%%);
+    background-repeat: no-repeat;
+    margin-top: 8px
+    }
+
+/* Upvote/downvote arrows */
+.arrow {
+    display: block;
+    height:21px
+    }
+.arrow.up {
+    background-image: url(%%Flask-all%%);
+    background-repeat: no-repeat;
+    background-position: left center
+    }
+.arrow.up:hover {
+    background-image: url(%%Flask-all%%);
+    background-repeat: no-repeat;
+    background-position: center center
+    }
+.comment .arrow.up:hover:before {
+    color: #555;
+    background-color: whiteSmoke;
+    content: "What would Sagan do?";
+    display: block;
+    font-size: 11px;
+    border: solid 1px #333;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 7px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    z-index: 1000
+    }
+.arrow.upmod {
+    background-image: url(%%Flask-all%%);
+    background-repeat: no-repeat;
+    background-position: right center
+    }
+.arrow.down {
+    background-image:url(%%downvote-all%%);
+    background-repeat: no-repeat;
+    background-position: left center
+    }
+.arrow.downmod {
+    background-image:url(%%downvote-all%%);
+    background-repeat: no-repeat;
+    background-position: right center
+    }
+/*********************************/
+/* This thanks to the mods or r/chemistry and jamt9000 */
+/* adds the use of chem symbols */
+/* Subscript and superscript */
+.md em {
+    position: relative
+    }
+/* *_sub_* */
+.md em em {
+    font-style: normal;
+    vertical-align: sub;
+    font-size: smaller
+    }
+/* *`sup`* */
+.md em code {
+    font-family: verdana, arial, helvetica, sans-serif;
+    vertical-align: super;
+    font-size: smaller
+    }
+/* *_sub_`sup`* */
+.md em em + code {
+    position: absolute;
+    left: 0;
+    bottom: 0.8em
+    }
+/* hover text for the report button */
+.report-button .option:not(.error):hover:before {
+    color: black;
+    background-color: #C4DBF1;
+    content: "Please message the moderators if you click report, otherwise we won't know why it was reported.";
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 7px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    z-index: 1000
+    }
+/*Code to remove down voting form a specific tread
+   Special thanks to gavin19 for the code, give him all your upvotes: reddit.com/user/gavin19 */
+/* #siteTable_t3_krzoi .down {display:none;} 
+	 Change t3_krzoi*/
+/* Announcement special color */
+a[href*="/announcement_"].title:link {
+    color: #59c !important
+    }
+a[href*="/announcement_"].title:hover {
+    color: #3f4c6b !important
+    }
+/* flair magic */
+.flair-red{
+  background: url(%%red%%) no-repeat left bottom !important;
+  padding:3px;
+  padding-left:36px;
+}
+.flair-1 {
+    background-color: #d8A427;
+    background-image: -o-linear-gradient(#d8A427,#b68205);
+    background-image: -moz-linear-gradient(top,#d8A427,#b68205);
+    background-image: -webkit-linear-gradient(top,#d8A427,#b68205);
+    background-image: -ms-linear-gradient(top,#d8A427,#b68205);
+    background-image: linear-gradient(top,#d8A427,#b68205);
+    text-shadow: #333 1px 1px 0px;
+    color: #fcfcfc;
+    border-color: #505050
+    }
+/* Silver Flair */
+.flair-2 {
+    background-image: linear-gradient(top,#fdfdfd,#ccc);
+    /* All similar code should be replaced by this soon */
+    background-image: -o-linear-gradient(#fdfdfd,#ccc);
+    /* Opera 10.5+ */
+    background-image: -moz-linear-gradient(top,#fdfdfd,#ccc);
+    /* FF3.6+ */
+    background-image: -webkit-gradient(linear,lefttop,leftbottom,#fdfdfd,#ccc);
+    /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top,#fdfdfd,#ccc);
+    /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image: -ms-linear-gradient(top,#fdfdfd,#ccc);
+    /* IE10 */
+    color: #a0a0a0;
+    border-color: #ccc;
+    text-shadow: #333 1px 1px 0px
+    }
+/* Pink flair */
+.flair-3 {
+    background-color: #ff69b4;
+    background-image: -o-linear-gradient(#ff69b4,#cc36a1);
+    background-image: -moz-linear-gradient(top,#ff69b4,#cc36a1);
+    background-image: -webkit-linear-gradient(top,#ff69b4,#cc36a1);
+    background-image: -ms-linear-gradient(top,#ff69b4,#cc36a1);
+    background-image: linear-gradient(top,#ff69b4,#cc36a1);
+    text-shadow: #333 1px 1px 0px;
+    color: #fcfcfc;
+    border-color: #505050
+    }
+/* green text flair */
+.flair-4 {
+    color: #191
+    }
+
+/* Better reddit name */
+.titlebox h1 a:before {
+    content: "r/"
+    }
+.titlebox h1 .hover {
+    content: "Shitty Ask Science" !important
+    }
+/* Better page name - Only works on Opera :( */
+.pagename a {
+    content: "Shitty Ask Science" !important;
+    font-size: 12pt
+    }
+/* Just a little magic for the search bar */
+/* and move the the submit bar to the top
+.side .sidebox{
+  position:absolute;
+  top:150px;
+  right:0px;
+  }
+*/
+#search input {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #333
+    }
+#search input:focus {
+    background-color: #fefefe;
+    box-shadow: -1px -1px 3px #ccc
+    }
+/* #header-bottom-left */
+#header {
+    -webkit-box-shadow: 0px 0px 10px #888;
+    /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0px 0px 10px #888;
+    /* FF3.5 - 3.6 */
+    box-shadow: 0px 0px 10px #888;
+    /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+    border: 0px;
+    background-color: #cee3f8;
+    /* Old browsers */
+    background-image: -o-linear-gradient(bottom,#acc1d6,#cee3f8);
+    background-image: linear-gradient(bottom,#cee3f8,#acc1d6);
+    background-image: -moz-linear-gradient(bottom,#cee3f8,#acc1d6);
+    background-image: -webkit-linear-gradient(bottom,#cee3f8,#acc1d6);
+    background-image: -ms-linear-gradient(bottom,#cee3f8,#acc1d6)
+    }
+/***************************/
+/* 2011 Shitty Ask Science fair awards */
+/*Also for quality recognitions as of July 12th 2012*/
+a[href*="/user/Psiman"] {
+    background: url(%%gold%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/darkmodem"] {
+    background: url(%%gold%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/kyle90"] {
+    background: url(%%silver%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/breakingeven"] {
+    background: url(%%silver%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/YUNoDie"] {
+    background: url(%%silver%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/BugChaser4Life"] {
+    background: url(%%silver%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/purplesoap"] {
+    background: url(%%silver%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/IAmAWhaleBiologist"] {
+    background: url(%%silver%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/MaebiusKiyak"] {
+    background: url(%%silver%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/grahamfreeman"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/I_Have_Two_Assholes"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/mazirian"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/labs"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/pigferret"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/kromagnon"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/PotatoMusicBinge"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/Nidies"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/jesusche"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/jesushx"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/lackofbrain"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/hot4belgians"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/crunchy_fetus"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/tel"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/lukeschett"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/Brisco_County_III"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/Super_Tux"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/chorn74"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/illybobilly13"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/SirReginaldThrowaway"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/war_story_guy"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/whininghippo"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/Googunk"] {
+    background: url(%%Flask%%) no-repeat bottom right;
+    padding-right: 16px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/Hansafan"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/zerogeesus"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/TrashLurker"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/zinklesmesh"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/HippieSpider"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/kaerast"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/aftershave"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/madroxinide"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/Explicit_Narwhal"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/TomTheNurse"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/SecularScience"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/c0n5pir4cy"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/FlamingSoySauce"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+a[href*="/user/mjmnum1"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+
+/***************************/
+/* =========================================================
+ * CHANGELOG
+ * 
+ * 04-05-12 Initial version of shitty menu. - agentlame
+ * 
+ * ======================================================= */
+
+/* ======================================================= */
+/* Header Menu / Announcement Bar */
+/* CSS taken from /r/Music. Origanl created by /u/raerth */ 
+/*moves links down to make space*/
+div.content {
+    margin-top: 50px
+    }
+/*hack to enable positioning of child elements*/
+.titlebox form {
+    position: static
+    }
+/*turns top quote in sidebar into menu container*/
+.md blockquote {
+    padding-left: 0px
+    }
+.titlebox blockquote:first-child {
+    border-left: none;
+    position: absolute;
+    z-index: 10;
+    top: 70px;
+    left: 0px
+    }
+/*turns first paragraph into menu title*/
+.titlebox blockquote:first-child p:first-child {
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+    float: left;
+    font-size: 12pt;
+    /*background:#eff7ff;*/
+    border: 1px solid #cee3f8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bold;
+    cursor: default;
+    }
+/*turns the lists into menus*/
+.titlebox blockquote ul {
+    float: right;
+    padding: 1px;
+    margin: 0px 0px;
+    background: #B79C5A;
+    border: 1px solid #cee3f8;
+    -moz-opacity:0.96;
+    opacity: 0.96;
+    }
+/*hide and styles lists*/
+.titlebox blockquote ul li {
+    display: none;
+    padding: 2px;
+    text-align: center
+    }
+/*makes whole list item selectable*/
+.titlebox blockquote li a {
+    display: block;
+    color:#fcfcff;
+    font-family:sans-serif;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
+/*shows menu on hover*/
+.titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li {
+    display: block
+    }
+/*turns top list item into section header*/
+.titlebox blockquote li:first-child {
+    font-size: 12pt;
+    padding: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: #3c3c3c 1px 1px 1px;
+    }
+/*styling menu items*/
+.titlebox blockquote:first-child ul li:hover {
+    background: #ffffff
+    }
+.titlebox blockquote li a:hover {
+    color: orangered;
+    }
+/*custom size for menu sections
+/* TSN Menu */
+.titlebox blockquote ul:nth-of-type(1) {
+    width: 195px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+    }
+/* Announcement bar */
+.titlebox h3:nth-of-type(1) {
+    /*this code positions the sticky*/
+    position: absolute;
+    display: block;
+    top: 70px;
+    left: 200px;
+    /*this code styles the sticky*/
+    background-color: #eff7ff;
+    color: #555;
+    font-size: 9pt;
+    text-align: left;
+    margin: 5px;
+    border: 1px solid #cee3f8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /*width: 50%;*/
+    padding: 7px 10px 7px 10px;
+    
+    /*this code creates the image*/
+    /*background-image: url(%%menu-anchor%%);
+    background-repeat: no-repeat;
+    background-position: 2px 2px;*/
+    }
+    
+/*  END: Header Menu */
