@@ -221,7 +221,7 @@ div.titlebox span.number:after {
 /*Code to remove down voting form a specific tread
    Special thanks to gavin19 for the code, give him all your upvotes: reddit.com/user/gavin19 */
 /* #siteTable_t3_krzoi .down {display:none;} 
-	 Change t3_krzoi*/
+     Change t3_krzoi*/
 /* Announcement special color */
 a[href*="/announcement_"].title:link {
     color: #59c !important
@@ -655,121 +655,88 @@ a[href*="/user/mjmnum1"] {
     }
 
 /***************************/
-/* =========================================================
- * CHANGELOG
- * 
- * 04-05-12 Initial version of shitty menu. - agentlame
- * 
- * ======================================================= */
+/* sticky menu bar */
+/* Original menu by /u/Raerth[http://redd.it/mwpw8]
+eddited for the needs the the shittynetwork @ /r/shittyHUB and /r/shittyNetwork */
+/*
+This can be changed to your subreddits needs,
+but just make sure that its high enought to fit the menu
+*/
+#header-bottom-left{
+  padding-top:40px !important;
+}
 
-/* ======================================================= */
-/* Header Menu / Announcement Bar */
-/* CSS taken from /r/Music. Origanl created by /u/raerth */ 
-/*moves links down to make space*/
+/*moves links down to make space
 div.content {
-    margin-top: 50px
-    }
+margin-top: 80px;
+}
+*/
 /*hack to enable positioning of child elements*/
 .titlebox form {
-    position: static
-    }
+  position: static
+}
 /*turns top quote in sidebar into menu container*/
-.md blockquote {
-    padding-left: 0px
-    }
 .titlebox blockquote:first-child {
-    border-left: none;
-    position: absolute;
-    z-index: 10;
-    top: 70px;
-    left: 0px
-    }
+  border-left: none;
+  position: absolute;
+  z-index: 100;
+  top: 15px;
+  left: 5px;
+}
 /*turns first paragraph into menu title*/
-.titlebox blockquote:first-child p:first-child {
-    margin: 0px 0px 0px 0px;
-    padding: 5px;
-    float: left;
-    font-size: 12pt;
-    /*background:#eff7ff;*/
-    border: 1px solid #cee3f8;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    font-weight: bold;
-    cursor: default;
-    }
+.titlebox blockquote:first-child p:first-child{
+  margin-top: 0px;
+  padding: 4px 17px 3px 23px;
+  height: 20px;
+  float: left;
+  font-size: 10pt;
+  background: #eff7ff url(%%poop%%) no-repeat 9px 0px;
+  border: 1px solid #cee3f8;
+  font-weight:bold;
+  color:#555;
+}
 /*turns the lists into menus*/
 .titlebox blockquote ul {
-    float: right;
-    padding: 1px;
-    margin: 0px 0px;
-    background: #B79C5A;
-    border: 1px solid #cee3f8;
-    -moz-opacity:0.96;
-    opacity: 0.96;
-    }
+  float: right;
+  padding: 1px;
+  background: #eff7ff;
+  border: 1px solid #cee3f8;
+  margin:0px;
+}
 /*hide and styles lists*/
 .titlebox blockquote ul li {
-    display: none;
-    padding: 2px;
-    text-align: center
-    }
+  display: none;
+  padding:2px;
+  text-align:center;
+}
 /*makes whole list item selectable*/
 .titlebox blockquote li a {
-    display: block;
-    color:#fcfcff;
-    font-family:sans-serif;
-    padding-top:2px;
-    padding-bottom:2px;
-    }
+  display:block;
+  padding:3px;
+}
 /*shows menu on hover*/
 .titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li {
-    display: block
-    }
+  display: block
+}
 /*turns top list item into section header*/
 .titlebox blockquote li:first-child {
-    font-size: 12pt;
-    padding: 4px;
-    color: #ffffff;
-    cursor: pointer;
-    text-shadow: #3c3c3c 1px 1px 1px;
-    }
+  font-size: 10pt;
+  padding: 4px;
+  cursor:default;
+  padding-left: 27px;
+  padding-right: 27px;
+}
 /*styling menu items*/
 .titlebox blockquote:first-child ul li:hover {
-    background: #ffffff
-    }
+  background:#ffffff;
+}
 .titlebox blockquote li a:hover {
-    color: orangered;
-    }
-/*custom size for menu sections
-/* TSN Menu */
-.titlebox blockquote ul:nth-of-type(1) {
-    width: 195px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px
-    }
-/* Announcement bar */
-.titlebox h3:nth-of-type(1) {
-    /*this code positions the sticky*/
-    position: absolute;
-    display: block;
-    top: 70px;
-    left: 200px;
-    /*this code styles the sticky*/
-    background-color: #eff7ff;
-    color: #555;
-    font-size: 9pt;
-    text-align: left;
-    margin: 5px;
-    border: 1px solid #cee3f8;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    /*width: 50%;*/
-    padding: 7px 10px 7px 10px;
-    
-    /*this code creates the image*/
-    /*background-image: url(%%menu-anchor%%);
-    background-repeat: no-repeat;
-    background-position: 2px 2px;*/
-    }
-    
-/*  END: Header Menu */
+  color:orangered;
+}
+/*custom size for menu sections*/
+/*Change the size of the Help/advice menu*/
+.titlebox blockquote ul:nth-of-type(3) {width:125px;}
+/*Change the size of the Other menu*/
+.titlebox blockquote ul:nth-of-type(2) {width:125px;}
+/*Change the size of the Meta menu*/
+.titlebox blockquote ul:nth-of-type(1) {width:125px;}
