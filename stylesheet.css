@@ -20,19 +20,24 @@ a[href="http://twitter.com/Shitty_Science"] {
     }
 /* Change the description of "subscribers"*/
 /* Removes the "subscribers" */
-div.titlebox span.word {
+.subscribers .word {
     display: none
     }
-div.titlebox span.number:before {
-    content: "Warning:  "
+.subscribers .number::before {
+    content: "Warning: "
     }
 /* Changes the subscribers to what ever I want */
-div.titlebox span.number:after {
+.subscribers .number::after {
     content: " Logic-dodgers"
     }
+/* Change the description of "users here now"*/
+.users-online .word {
+    display: none
+    }
+/* Changes the users online to what ever I want */
+.users-online .number::after {content: " currently doing science"}
 
-
-.sidebox.submit{display:none}
+.sidebox .submit{display:none}
 .side .bottom{margin-top:5px;}
 .side .md a[href="http://www.reddit.com/r/shittyaskscience/submit"]:before {
     display: block;
