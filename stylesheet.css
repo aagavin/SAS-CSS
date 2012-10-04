@@ -71,8 +71,8 @@ div.titlebox span.number:after {
   z-index:1000;
   width:100%;
   left:0;
-  font-size:23px;
-  content:"Reminder: This subreddit is not for general questions, but only ones answerable by (shitty)science.           By submitting you agree that Googunk is charming and smells nice.";
+  font-size:22px;
+  content:"Reminder: This subreddit is not for general questions, but only ones answerable by (shitty)science. Winners don't use puns.";
   position:fixed;
 }
 .side .md a[href="http://www.reddit.com/r/shittyaskscience/submit"]:hover::before {
@@ -128,7 +128,7 @@ div.titlebox span.number:after {
     }
 .side {
     padding-top: 300px;
-    background-image: url(%%nasa2%%);
+    background-image: url(%%sasbdaytext%%);
     background-repeat: no-repeat;
     margin-top: 8px
     }
@@ -331,322 +331,350 @@ a[href*="/announcement_"].title:hover {
 /***************************/
 /* 2011 Shitty Ask Science fair awards */
 /*Also for quality recognitions as of July 12th 2012*/
-a[href*="/user/Psiman"] {
+.content a[href*="/user/Psiman"] {
     background: url(%%gold%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/darkmodem"] {
+.content a[href*="/user/darkmodem"] {
     background: url(%%gold%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/kyle90"] {
+.content a[href*="/user/kyle90"] {
     background: url(%%silver%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/breakingeven"] {
+.content a[href*="/user/breakingeven"] {
     background: url(%%silver%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/YUNoDie"] {
+.content a[href*="/user/YUNoDie"] {
     background: url(%%silver%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/BugChaser4Life"] {
+.content a[href*="/user/BugChaser4Life"] {
     background: url(%%silver%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/purplesoap"] {
+.content a[href*="/user/purplesoap"] {
     background: url(%%silver%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/IAmAWhaleBiologist"] {
+.content a[href*="/user/IAmAWhaleBiologist"] {
     background: url(%%silver%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/MaebiusKiyak"] {
+.content a[href*="/user/MaebiusKiyak"] {
     background: url(%%silver%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/grahamfreeman"] {
+.content a[href*="/user/grahamfreeman"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/I_Have_Two_Assholes"] {
+.content a[href*="/user/I_Have_Two_Assholes"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/mazirian"] {
+.content a[href*="/user/bat_guano"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/labs"] {
+.content a[href*="/user/mazirian"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/pigferret"] {
+.content a[href*="/user/labs"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/kromagnon"] {
+.content a[href*="/user/pigferret"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/PotatoMusicBinge"] {
+.content a[href*="/user/kromagnon"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/Nidies"] {
+.content a[href*="/user/PotatoMusicBinge"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/jesusche"] {
+.content a[href*="/user/Nidies"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/jesushx"] {
+.content a[href*="/user/jesusche"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/lackofbrain"] {
+.content a[href*="/user/jesushx"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/hot4belgians"] {
+.content a[href*="/user/lackofbrain"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/crunchy_fetus"] {
+.content a[href*="/user/hot4belgians"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/tel"] {
+.content a[href*="/user/crunchy_fetus"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/lukeschett"] {
+.content a[href*="/user/tel"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/Brisco_County_III"] {
+.content a[href*="/user/lukeschett"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/Super_Tux"] {
+.content a[href*="/user/Brisco_County_III"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/chorn74"] {
+.content a[href*="/user/Super_Tux"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/illybobilly13"] {
+.content a[href*="/user/chorn74"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/SirReginaldThrowaway"] {
+.content a[href*="/user/illybobilly13"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/war_story_guy"] {
+.content a[href*="/user/SirReginaldThrowaway"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/whininghippo"] {
+.content a[href*="/user/war_story_guy"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/Googunk"] {
+.content a[href*="/user/whininghippo"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+.content a[href*="/user/Googunk"] {
     background: url(%%Flask%%) no-repeat bottom right;
     padding-right: 16px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/Hansafan"] {
+.content a[href*="/user/Hansafan"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/zerogeesus"] {
+.content a[href*="/user/zerogeesus"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/TrashLurker"] {
+.content a[href*="/user/TrashLurker"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/zinklesmesh"] {
+.content a[href*="/user/zinklesmesh"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/HippieSpider"] {
+.content a[href*="/user/HippieSpider"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/kaerast"] {
+.content a[href*="/user/kaerast"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/aftershave"] {
+.content a[href*="/user/aftershave"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/madroxinide"] {
+.content a[href*="/user/madroxinide"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/Explicit_Narwhal"] {
+.content a[href*="/user/Explicit_Narwhal"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/TomTheNurse"] {
+.content a[href*="/user/TomTheNurse"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/SecularScience"] {
+.content a[href*="/user/SecularScience"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/c0n5pir4cy"] {
+.content a[href*="/user/c0n5pir4cy"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/FlamingSoySauce"] {
+.content a[href*="/user/FlamingSoySauce"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
     padding-top: 6px;
     padding-bottom: 6px
     }
-a[href*="/user/mjmnum1"] {
+.content a[href*="/user/mjmnum1"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+.content a[href*="/user/breen-machine"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+.content a[href*="/user/flatsperm"] {
+    background: url(%%red%%) no-repeat bottom right;
+    padding-right: 38px;
+    margin-right: 2px;
+    padding-top: 6px;
+    padding-bottom: 6px
+    }
+.content a[href*="/user/KTrout17"] {
     background: url(%%red%%) no-repeat bottom right;
     padding-right: 38px;
     margin-right: 2px;
@@ -663,80 +691,82 @@ This can be changed to your subreddits needs,
 but just make sure that its high enought to fit the menu
 */
 #header-bottom-left{
-  padding-top:40px !important;
+padding-top:65px !important;   /* <--- tweak to increase header height if necessary */
 }
 
 /*moves links down to make space
 div.content {
-margin-top: 80px;
+margin-top: 50px;
 }
 */
 /*hack to enable positioning of child elements*/
 .titlebox form {
-  position: static
+position: static
 }
 /*turns top quote in sidebar into menu container*/
 .titlebox blockquote:first-child {
-  border-left: none;
-  position: absolute;
-  z-index: 100;
-  top: 15px;
-  left: 5px;
+border-left: none;
+position: absolute;
+z-index: 100;
+top: 45px;  /* positions the menu up/down*/
+left: 0px;   /* positions the menu left/right*/
 }
+
 /*turns first paragraph into menu title*/
-.titlebox blockquote:first-child p:first-child{
-  margin-top: 0px;
-  padding: 4px 17px 3px 23px;
-  height: 20px;
-  float: left;
-  font-size: 10pt;
-  background: #eff7ff url(%%poop%%) no-repeat 9px 0px;
-  border: 1px solid #cee3f8;
-  font-weight:bold;
-  color:#555;
+.titlebox blockquote:first-child p:first-child {
+margin-top: 0px;
+padding: 3px 17px 3px 23px;
+height: 20px;
+float: left;
+font-size: 10pt;
+background: #E0FFFF url(%%poop%%) no-repeat 9px -2px;    /*<--change hex value(#eff7ff) for poop's background */
+text-indent: -999px;
+
+border: 2px solid #B4CDCD; /*<--change hex value for poop's border colour */
+font-weight:bold;
+color:#555;
+cursor:default;
 }
 /*turns the lists into menus*/
 .titlebox blockquote ul {
-  float: right;
-  padding: 1px;
-  background: #eff7ff;
-  border: 1px solid #cee3f8;
-  margin:0px;
+float: right;
+padding: 1px;
+background: #E0FFFF;  /*<--change hex value for menu background colour */
+border: 2px solid #B4CDCD;    /*<--change hex value for menu border colour */
+margin:0px;
 }
 /*hide and styles lists*/
 .titlebox blockquote ul li {
-  display: none;
-  padding:2px;
-  text-align:center;
+display: none;
+padding:2px;
+text-align:center;
 }
 /*makes whole list item selectable*/
 .titlebox blockquote li a {
-  display:block;
-  padding:3px;
+display:block;
+padding:3px;
 }
 /*shows menu on hover*/
 .titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li {
-  display: block
+display: block
 }
 /*turns top list item into section header*/
 .titlebox blockquote li:first-child {
-  font-size: 10pt;
-  padding: 4px;
-  cursor:default;
-  padding-left: 27px;
-  padding-right: 27px;
+font-size: 10pt;
+padding: 4px;
+cursor:default;
+padding-left: 27px;
+padding-right: 27px;
 }
 /*styling menu items*/
 .titlebox blockquote:first-child ul li:hover {
-  background:#ffffff;
+background:#CDC8B1;
 }
 .titlebox blockquote li a:hover {
-  color:orangered;
+color:orangered;
 }
 /*custom size for menu sections*/
 /*Change the size of the Help/advice menu*/
 .titlebox blockquote ul:nth-of-type(3) {width:125px;}
-/*Change the size of the Other menu*/
-.titlebox blockquote ul:nth-of-type(2) {width:125px;}
 /*Change the size of the Meta menu*/
 .titlebox blockquote ul:nth-of-type(1) {width:125px;}
